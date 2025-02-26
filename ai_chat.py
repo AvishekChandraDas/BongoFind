@@ -22,7 +22,7 @@ GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize Gemini model
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-pro-latest')
 
 # Enhanced system prompt
 SYSTEM_PROMPT = """You are BongoFind AI, a helpful assistant for the BongoFind website. 
